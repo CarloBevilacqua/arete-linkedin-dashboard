@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { BarChart, PieChart, LineChart } from 'recharts';
 import data from './data.json';
+import RealData from './RealData';
 import './App.css';
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
   // Ranking for most active
   const sortedData = [...adjustedData].sort((a, b) => b.activityLevel - a.activityLevel);
 
-  return (
+  const dashboardContent = (
     <div className="p-4">
       <h1 className="text-2xl font-bold">Areté LinkedIn Dashboard</h1>
       <div className="flex gap-4 my-4">
@@ -68,6 +70,19 @@ function App() {
         </tbody>
       </table>
     </div>
+  );
+
+  return (
+    <Router>
+      <nav className="p-4 bg-blue-500 text-white">
+        <Link to="/" className="mr-4">Dashboard</Link>
+        <Link to="/real-data">Real Data</Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={dashboardContent} />
+        <Route path="/real-data" element={<RealData />} />
+      </Routes>
+    </Router>
   );
 }
 
