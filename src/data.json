@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Carlo Vittorio Bevilacqua Ariosti",
+    "team": "Market Intelligence",
+    "linkedin": "https://www.linkedin.com/in/carlobevilacquaariosti",
+    "postsShared": 10,
+    "comments": 15,
+    "likes": 30,
+    "percentAgrifood": 65,
+    "activityLevel": 80
+  },
+  {
+    "name": "Enrica Gentile",
+    "team": "Leadership",
+    "linkedin": "https://www.linkedin.com/in/enrica-gentile-96ab0924",
+    "postsShared": 5,
+    "comments": 8,
+    "likes": 20,
+    "percentAgrifood": 80,
+    "activityLevel": 60
+  },
+  {
+    "name": "Mauro Bruni",
+    "team": "Growth Strategies",
+    "linkedin": "https://www.linkedin.com/in/dr-mauro-bruni-7ab9883",
+    "postsShared": 12,
+    "comments": 10,
+    "likes": 25,
+    "percentAgrifood": 70,
+    "activityLevel": 75
+  },
+  {
+    "name": "Mario Gentile",
+    "team": "Policy Evaluation",
+    "linkedin": "https://www.linkedin.com/in/mario-gentile-0aa171b",
+    "postsShared": 8,
+    "comments": 12,
+    "likes": 18,
+    "percentAgrifood": 55,
+    "activityLevel": 65
+  },
+  {
+    "name": "Annachiara Saguatti",
+    "team": "Market Intelligence",
+    "linkedin": "https://www.linkedin.com/in/annachiara-saguatti",
+    "postsShared": 7,
+    "comments": 9,
+    "likes": 22,
+    "percentAgrifood": 60,
+    "activityLevel": 70
+  }
+]
